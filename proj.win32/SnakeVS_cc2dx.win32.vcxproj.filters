@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{d7666b9b-7021-4c0b-8948-7271d00b2f7a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{766f8760-edf8-4b69-bf5a-2005e228b8ad}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{0e68ea6f-9ebf-4776-a333-51ca584219cd}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SnakeVS_cc2dx.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon_block2_s.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon_food_s.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon_snakebody_A_s.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon_snakebody_H_s.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon_snakehead_A_s.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\Icon_snakehead_H_s.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\back_s.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\blue_sky_and_green_grass_S.jpg">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\grass-background.jpg">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\New_s.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SnakeVS_cc2dx.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SnakePart\World.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SnakePart\Block.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SnakePart\Food.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SnakePart\Snake.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SnakePart\Snake_Auto.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SnakePart\Snake_Human.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CC2dxPart\Layer_WorldAndBlock.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CC2dxPart\Layer_Food.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CC2dxPart\Layer_SnakeHuman.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CC2dxPart\Layer_SnakeAuto.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CC2dxPart\Icon_Header.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SnakePart\SnakeVS_Game.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SnakePart\Game_Option.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CC2dxPart\GameStartScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CC2dxPart\GameOverScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SnakePart\Block.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SnakePart\Food.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SnakePart\Snake.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SnakePart\Snake_Auto.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SnakePart\Snake_Human.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SnakePart\SnakeVS_Game.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SnakePart\World.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CC2dxPart\Layer_WorldAndBlock.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CC2dxPart\Layer_SnakeHuman.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CC2dxPart\Layer_SnakeAuto.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CC2dxPart\Layer_Food.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CC2dxPart\GameStartScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CC2dxPart\GameOverScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
